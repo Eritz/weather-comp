@@ -1,0 +1,46 @@
+.ModalLink{
+    display: block;
+    float: left;
+    width: 91%;
+    /* padding: 5px; */
+    border-radius: 5px;
+    outline: none;
+    margin-top: 3px;
+}
+
+.ButtonContainer {
+    display: block;
+    float: left;
+    margin-left: 10px;
+    margin-top: -3px;
+    margin-bottom: 5px;
+}
+
+
+.DeleteLink {
+    border: none;
+    background-color: transparent;
+    background-repeat: none;
+    cursor: pointer;
+    outline: none;
+    color: rgba(192, 65, 65, 0.911);
+    font-size: 25px;
+}
+
+.AddLink {
+    margin-left: 10px;
+    border: none;
+    background-color: transparent;
+    background-repeat: none;
+    cursor: pointer;
+    outline: none;
+    color: rgb(135, 151, 135);
+    font-size: 25px; 
+}
+
+.DeleteLink:hover,
+.AddLink:hover {
+    border-radius: 15px;
+    background-color: #f3f3f3;
+    font-weight: bold;
+}

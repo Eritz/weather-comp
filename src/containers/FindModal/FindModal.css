@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+.FindModal {
+    margin:-10px -10px 0;    
+    font-family: 'Lato', sans-serif;
+    margin-top: 35px;
+    padding: 20px;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* Add to Menu Button */
+.ParseLinkButton {
+    float:right;
+    outline: none;
+    margin: 5px;
+    margin-top: 20px;
+    margin-right: 5%;
+    padding: 5px;
+    border: none;
+    background-color: rgb(39, 34, 34);
+    background-repeat: none;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    /* width: 12%; */
+}
+
+.ParseLinkButton:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.2);
+}
+
+.ParseLinkButton:active {
+    background-color: rgba(39, 34, 34, 0.788);    
+}

@@ -1,0 +1,35 @@
+.Hour {
+    display: table;
+    width: 100%;
+    color: black;
+}
+
+.HourTime, 
+.HourForecast{
+    padding: 7px;
+    display: table-cell;
+    box-shadow: 1px 1px 0px lightgrey;
+    max-width: 100px;
+}
+
+/* Column 1 */
+.HourTime {
+    width: 100px;
+}
+
+.HourTime p{
+    text-align: center;
+    font-size: 1em;
+}
+
+/* Column 2 */
+.HourForecast {
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: small;
+}
+
+.HourPrecipType {
+    color: rgb(60, 116, 219);
+    font-weight: bold;
+}

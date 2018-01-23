@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+.CompareList {
+    font-family: 'Lato', sans-serif;        
+    position: fixed;
+    width: 205px;
+    padding: 5px;
+    max-width: 70%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(61, 70, 78);
+    text-align: center;
+    color: white;
+}
+
+.ComparingHeadline{    
+    font-size: 30px;
+    margin-bottom: 0px;
+    border-bottom: 1px ridge white;
+}
+
+/* List Options */
+.CompareList_Options {
+    display: flex;
+    text-align: center;
+}
+
+.CompareList_About,
+.CompareList_Mode,
+.CompareList_DeleteAll,
+.CompareList_Units {
+    cursor: pointer;
+    /* Prevent highlight on double-click */
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+    font-size: 0.8em;
+}
+
+.CompareList_About {
+    float: left;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+.CompareList_About:hover {
+    color: rgb(255, 0, 221);
+}
+
+.CompareList_Mode {
+    float: left;
+    margin-left: 4%;
+    margin-right: 2%;
+}
+
+.CompareList_Mode:hover {
+    color: rgb(255, 153, 0);
+}
+
+.CompareList_Units {
+    float: left;
+    margin-left: 5%;
+    margin-right: 8%;
+    width: 0%;  
+}
+
+.CompareList_Units:hover {
+    color: #7ee213;
+}
+
+.CompareList_DeleteAll {
+    float: left;
+    margin-left: 4%;
+    margin-right: 2%;
+}
+
+.CompareList_DeleteAll:hover {
+    color: rgb(199, 83, 83);
+}
+
+.CompareList_DeleteAll:active {
+    color: rgba(199, 83, 83, 0.705);
+}
+
+/* ItemsContainer */
+
+.ItemsContainer {
+    height: 80%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.ItemsContainer::-webkit-scrollbar {
+    width: 1%;
+    height: 100%;
+}
+
+.ItemsContainer::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.2);
+}

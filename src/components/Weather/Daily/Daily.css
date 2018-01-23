@@ -1,0 +1,18 @@
+.Daily {
+    display: table;
+    width: 100%;
+    color: black;
+    text-align: center;    
+}
+
+/* Column 1, 2, 3 */
+.TheDay,
+.DailyHigh,
+.DailyLow {
+    padding: 0px;
+    display: table-cell;
+    box-shadow: 1px 1px 0px lightgrey;
+    width: 33.5%;
+    max-width: 100px;
+    overflow: hidden;
+}

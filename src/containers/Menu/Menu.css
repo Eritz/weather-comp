@@ -1,0 +1,9 @@
+.MenuSection {
+    float: left;
+    margin-right: 0;
+    position: relative; /*I changed it from absolute to relative */
+    width: 220px;
+    top: 0;
+    height: 100%;
+    background: rgb(61, 70, 78);
+}

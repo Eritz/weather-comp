@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+.Weather {
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: rgb(133, 5, 133);
+    height: 100%;
+    width: 287px !important;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+}
+
+/* Column Header */
+.ActiveLocation {
+    border-right: 0.5px dashed rgba(60, 104, 186, 0.6);
+    margin: 0;
+    padding: 0;
+    min-height: 152px;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width:100%;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 
+                0 3px 1px -2px rgba(0,0,0,.2), 
+                0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.ActiveLocation_Container {
+    margin-top: -10px;
+    margin-bottom: -23px;
+    display: flex;
+}
+
+.ActiveLocation_Icon {
+    width: 35%;
+    height: 50%;
+    margin-top: 45px;
+    float: left;
+}
+
+.ActiveLocation_Detail_Container {
+    float: left;
+    text-overflow: ellipsis;
+}
+
+.ActiveLocation_Title {
+    display: flex;
+}
+
+.ActiveLocation_Temp {
+    flex-shrink: 1;
+    color: black;
+    
+    margin-right: 3px;
+}
+
+/* Info Container */
+.LocationInfo {
+    position: relative;
+    display: inline-block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-grow: 1;
+    padding: 0!important;
+    margin: 0 !important;
+}
+
+
+
+.Currently h1,
+.Hourly h1,
+.Week h1 {
+    font-family: 'Lato';
+    color: white;
+    background: #3c68ba;
+    text-align: center;
+}
+
+/* The header containers for Hourly, Week Section */
+.HourHeader, 
+.WeekHeader {
+    display: table;
+    width: 100%;
+    position: relative;    
+    table-layout: fixed;
+}
+
+
+/* The 2 main Hourly columns labels: Time, Forecast 
+** The 3 main Day-to-day/Week columns labels: Day, Low, High
+*/
+.HourTimeCol, 
+.HourForecastCol,
+.WeekDayCol, 
+.WeekLowCol, 
+.WeekHighCol {
+    padding: 7px;
+    display: table-cell;
+    box-shadow:  1px 1px 0px lightgrey;
+    text-align: center;
+}
+
+/****************************************/
+/* Hourly Section */
+
+.HourTimeCol {
+    width: 100px;
+}
+
+.HourForecastCol {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/*****************************************.
+.* Weekly Section */
+.WeekDayCol, 
+.WeekLowCol, 
+.WeekHighCol{
+    width: 35px;
+}
+
+/*****************************************
+Weather Scrollbar */
+.LocationInfo::-webkit-scrollbar {
+    width: 3%;
+} /* this targets the default scrollbar (compulsory) */
+
+.LocationInfo::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); 
+} /* this will style the thumb, ignoring the track */
+
+.LocationInfo::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}

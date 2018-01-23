@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+.Modal {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 50%;
+    /* border: 1px solid #ccc; */
+    box-shadow: 1px 1px 1px darkslategrey;
+    border-radius: 2px;
+    padding: 16px;
+    left: 25%;
+    top: 25%;
+    max-height: 45%;
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    display: inline-flex;
+}
+
+.ModalHeaderContainer{
+    width: 100%;
+    /* height: 20%; */
+    background: #1f5ed3;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: white;
+    font-family: 'Lato', sans-serif;  
+}
+
+.ModalHeaderContainer p{
+    margin-left: 10px;
+}
+
+.CloseButton {
+    border: none;
+    background-color: transparent;
+    background-repeat: none;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font: 20px/100% arial, sans-serif;
+    position: absolute;
+    right: 5px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+    top: 5px;
+}
