@@ -7,7 +7,8 @@ const aboutModal = (props) => {
             <h3>What is this site?</h3>
             <p>Built using ReactJS, this website allows quickly comparing the weather
                 of multiple locations at the same time. The information supplied is the bare
-                minimum (atleast, for me).
+                minimum (atleast, for me). Source code can be found
+                <a href="https://github.com/Eritz/weather-comp" style={{textDecoration: "none"}}> here</a>.
                 <br/> <br/>
                 Searching is powered by the Google Maps API,
                 and the weather information is supplied through Dark Sky.
@@ -25,7 +26,7 @@ const aboutModal = (props) => {
             <span style={{color:"#7ee213"}}> F</span><span style={{color:"black"}}>/</span><span style={{color:"#7ee213"}}>C</span>,
             <span style={{color:"rgb(199, 83, 83)"}}> Empty</span> options in the menu?</h3>
             <p><span style={{color:"rgb(255, 153, 0)"}}>Mode</span> toggles between <i>Compare</i> and <i>Delete</i>.<br/>
-                <i>Compare</i> allows selecting an item and viewing its info to the right.
+                <i>Compare</i> allows selecting an item and viewing its info to the right.<br/>
                 <i>Delete</i> will delete selected items.
                 <br/>
                 <br/>
