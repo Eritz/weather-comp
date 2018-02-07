@@ -1,6 +1,6 @@
 # React.js Weather Comparison App
 
-https://give-me-the-weather.herokuapp.com/
+**Link:** https://give-me-the-weather.herokuapp.com/
 
 ![image](https://user-images.githubusercontent.com/14249336/35921885-f14aa094-0be9-11e8-8e66-141bd2a81f95.png)
 
