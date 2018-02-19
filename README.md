@@ -2,7 +2,7 @@
 
 **Link:** https://give-me-the-weather.herokuapp.com/
 
-![image](https://user-images.githubusercontent.com/14249336/35921885-f14aa094-0be9-11e8-8e66-141bd2a81f95.png)
+![weather](https://user-images.githubusercontent.com/14249336/36360250-2b0e2d96-14f0-11e8-8c18-4af6a8edf09b.gif)
 
 React.js web application that allows quickly searching and comparing the weather for multiple locations. The web app uses a similar style to TweetDeck; i.e, can compare the weather of locations side-by-side. Best viewed in Chrome.
 
